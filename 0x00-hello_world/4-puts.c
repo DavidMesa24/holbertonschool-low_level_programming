@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main - enftry funcition
- *main return 0 always return 0
+ *return: Always 0 (Sucess)
  */
 int main(void)
 {
