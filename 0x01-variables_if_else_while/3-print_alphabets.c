@@ -4,7 +4,7 @@
  *
  * Return: zero always
  */
-int main (void)
+int main(void)
 {
 	char c = 'a';
 	char d = 'A';
