@@ -11,6 +11,7 @@
 int largest_number(int a, int b, int c)
 {
 	int mayor;
+
 	if (a >= b && b >= c)
 	{
 		mayor = a;
