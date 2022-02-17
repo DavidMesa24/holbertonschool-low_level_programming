@@ -11,7 +11,7 @@ int largest_number(int a, int b, int c)
 {
 	int mayor;
 
-	if (a >= b && b >= c)
+	if (a >= b && a >= c)
 	{
 		mayor = a;
 	}
@@ -25,4 +25,16 @@ int largest_number(int a, int b, int c)
 	}
 
 	return (mayor);
+}
+
+int main(void)
+{
+	int a, b, c;
+	int largest;
+	a = 28;
+	b = 29;
+	c = 28;
+	largest = largest_number(a, b, c);
+	printf("%d is the largest number\n", largest);
+	return (0);
 }
