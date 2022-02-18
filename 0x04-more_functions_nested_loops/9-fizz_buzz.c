@@ -2,9 +2,10 @@
 
 /**
  * fizz - fizz buzz
+ * Return: Always 0
  */
 
-void fizz(void)
+int fizz(void)
 {
 	int i;
 
@@ -31,4 +32,5 @@ void fizz(void)
 		}
 	}
 	printf("\n");
+	return (0);
 }
