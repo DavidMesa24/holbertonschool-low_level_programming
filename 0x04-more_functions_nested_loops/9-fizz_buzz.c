@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * fizz - fizz buzz
+ * main - fizz buzz
  * Return: Always 0
  */
 
-int fizz(void)
+int main(void)
 {
 	int i;
 	
