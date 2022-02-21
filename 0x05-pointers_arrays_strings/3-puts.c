@@ -2,7 +2,7 @@
 
 /**
  * _puts - puts new line
- * @str: String 
+ * @str: String
  * Return: void
  */
 
