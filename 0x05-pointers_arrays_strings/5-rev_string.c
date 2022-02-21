@@ -29,10 +29,10 @@ void rev_string(char *s)
 
 	while (i < j)
 	{
-		x = s[1];
+		x = s[i];
 		s[i] = s[j];
 		s[j] = x;
 		i++;
-		i--;
+		j--;
 	}
 }
