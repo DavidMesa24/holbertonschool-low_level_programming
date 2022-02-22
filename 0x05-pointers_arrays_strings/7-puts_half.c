@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _str len - length
+ * _strlen - length
  * @s: char
  * Return: void
  */
@@ -18,8 +18,8 @@ int _strlen(char *s)
 	return (length);
 }
 /**
- * puts_half
- * @str - str
+ * puts_half - hals string
+ * @str: str
  * Return: void
  */
 void puts_half(char *str)
