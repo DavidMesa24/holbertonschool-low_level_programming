@@ -29,7 +29,7 @@ void puts_half(char *str)
 		int medio = (length_of_the_string - 1) / 2;
 		while (medio <	length_of_the_string)
 		{
-			_putchar(str[medio]);
+			_putchar(str[medio+1]);
 			medio++;
 		}
 	}
