@@ -38,4 +38,5 @@ void puts2(char *str)
 		aux = !aux;
 		i++;
 	}
+	_putchar('\n');
 }
