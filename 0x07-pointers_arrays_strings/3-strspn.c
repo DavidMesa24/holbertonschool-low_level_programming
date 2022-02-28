@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strspn - ...
  * @s: ....
@@ -9,22 +10,23 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j, count;
-
-	for (i = 0; accept[i] != '\0'; i++)
+	int i, j, f, flag;
+	f = 0;
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; s[j] != '\0'; j++)
-		{
-			if (accept[i] != s[j])
+		flag = 0;
+		for (j = 0; accept[j] != '\0'; j++)
+		{	
+			if (s[i] == accept[j])
 			{
-				count++;
-			}
-			else
-			{
-				return (count);
+				f++;
+				flag = 1;
 			}
 		}
+		if (flag == 1)
+		{
+			return (f);
+		}
 	}
-	return (count);
+	return (0);
 }
-
