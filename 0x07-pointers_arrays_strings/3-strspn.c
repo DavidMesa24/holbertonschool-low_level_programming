@@ -2,7 +2,7 @@
 /**
  * _strspn - ...
  * @s: ....
- * :accept: ....
+ * @accept: ....
  *
  * Return: ...
  */
@@ -19,7 +19,7 @@ unsigned int _strspn(char *s, char *accept)
 			{
 				count++;
 			}
-			else 
+			else
 			{
 				return (count);
 			}
