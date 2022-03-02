@@ -1,6 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * _strlen_recursion - ........
+ *
+ * @s: .....
+ * Return: int
+ */
+
 int _strlen_recursion(char *s)
 {
 
@@ -8,14 +15,5 @@ int _strlen_recursion(char *s)
 	{
 		return (0);
 	}
-	return (1 + _strlen_recursion(s + 1));
-}
-
-int main(void)
-{
-    int n;
-
-    n = _strlen_recursion("Corbin Coleman");
-    printf("%d\n", n);
-    return (0);
+		return (1 + _strlen_recursion(s + 1));
 }
